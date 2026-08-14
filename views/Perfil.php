@@ -1,39 +1,4 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Cuenta y Votos - Ballon d'Or</title>
-    <!-- Bootstrap 5 CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Bootstrap Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&display=swap" rel="stylesheet">
-    <!-- Estilos personalizados -->
-    <link rel="stylesheet" href="public/css/styles.css">
-    <!-- Logo personalizado en la barra del navegador -->
-    <link rel="icon" type="image/png" href="public/img/logo.png">
-</head>
-<body>
-
-    <!-- Barra de Navegación -->
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-luxury fixed-top">
-        <div class="container">
-            <a class="navbar-brand d-flex align-items-center gap-2" href="index.php">
-                <i class="bi bi-trophy-fill text-warning fs-4"></i>
-                <span>BALLON D'OR</span>
-            </a>
-            <div class="d-flex align-items-center gap-3">
-                <a href="index.php" class="btn btn-profile">
-                    <i class="bi bi-house-door me-1"></i> Inicio
-                </a>
-                <a href="index.php?action=logout" class="btn btn-outline-danger btn-sm rounded-pill px-3 py-1 text-uppercase" style="font-size: 0.75rem;">
-                    <i class="bi bi-box-arrow-right me-1"></i> Salir
-                </a>
-            </div>
-        </div>
-    </nav>
+<?php require 'public\template\header.html'; ?>
 
     <!-- Contenido Principal -->
     <main class="container py-5" style="margin-top: 100px; max-width: 800px;">

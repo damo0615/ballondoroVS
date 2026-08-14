@@ -121,3 +121,8 @@ body {
     border-bottom: 1px solid rgba(197, 160, 89, 0.3);
     padding-bottom: 8px;
 }
+
+.logo{
+    width: 50px;
+    border-radius: 60px;
+}
