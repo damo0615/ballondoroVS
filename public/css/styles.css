@@ -1,0 +1,123 @@
+/* public/css/styles.css */
+
+:root {
+    --bg-deep: #050505;
+    --bg-card: #0e0e0e;
+    --border-gold: #c5a059;
+    --text-gold: #e2c074;
+    --gold-gradient: linear-gradient(135deg, #d4af37, #f3e5ab, #aa771c, #fbf5b7, #996515);
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--bg-deep);
+    color: #ffffff;
+    overflow-x: hidden;
+}
+
+.navbar-luxury {
+    background-color: rgba(5, 5, 5, 0.95);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(197, 160, 89, 0.2);
+    padding: 15px 0;
+}
+
+.navbar-brand span {
+    background: var(--gold-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.btn-profile {
+    background: rgba(197, 160, 89, 0.1);
+    border: 1px solid rgba(197, 160, 89, 0.4);
+    color: var(--text-gold);
+    padding: 8px 20px;
+    font-weight: 600;
+    border-radius: 50px;
+    font-size: 0.85rem;
+    transition: all 0.3s ease;
+}
+
+.btn-profile:hover {
+    background: var(--gold-gradient);
+    color: #000000;
+    border-color: transparent;
+    box-shadow: 0 0 15px rgba(197, 160, 89, 0.3);
+}
+
+.gold-title {
+    background: var(--gold-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    letter-spacing: -1px;
+}
+
+.section-divider {
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(197, 160, 89, 0.3), transparent);
+    margin: 100px 0;
+}
+
+.cat-card {
+    background-color: var(--bg-card);
+    border: 1px solid rgba(197, 160, 89, 0.2);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.7);
+    transition: border-color 0.3s ease;
+}
+
+.cat-card:hover {
+    border-color: rgba(197, 160, 89, 0.6);
+}
+
+.carousel-item img {
+    height: 380px;
+    object-fit: cover;
+    filter: brightness(0.85);
+    transition: filter 0.3s;
+}
+
+.carousel-item:hover img {
+    filter: brightness(1);
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: var(--border-gold);
+    height: 4px;
+    border-radius: 2px;
+}
+
+.btn-gold-luxury {
+    background: transparent;
+    border: 2px solid var(--border-gold);
+    color: var(--text-gold);
+    padding: 14px 40px;
+    font-weight: 600;
+    border-radius: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.8rem;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.btn-gold-luxury:hover {
+    background: var(--gold-gradient);
+    color: #000000;
+    border-color: transparent;
+    box-shadow: 0 0 25px rgba(197, 160, 89, 0.4);
+    transform: translateY(-2px);
+}
+
+.badge-edition {
+    letter-spacing: 4px;
+    color: var(--border-gold);
+    font-size: 0.75rem;
+    border-bottom: 1px solid rgba(197, 160, 89, 0.3);
+    padding-bottom: 8px;
+}
