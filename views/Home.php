@@ -12,6 +12,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&display=swap" rel="stylesheet">
     <!-- Estilos personalizados -->
     <link rel="stylesheet" href="public/css/styles.css">
+    <!-- Logo personalizado en la barra del navegador -->
+    <link rel="icon" type="image/png" href="public/img/logo.png">
 </head>
 <body>
 
