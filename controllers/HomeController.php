@@ -2,7 +2,7 @@
 // controllers/HomeController.php
 
 require_once __DIR__ . '/../config/database.php';
-require_once __DIR__ . '/../models/Categoria.php';
+require_once __DIR__ . '/../models/categoria.php';
 
 class HomeController {
     
@@ -19,7 +19,7 @@ class HomeController {
 
         // 4. Cargamos la vista de la landing page y le pasamos los datos
         // Nota: Las variables definidas aquí estarán disponibles dentro de la vista.
-        require_once __DIR__ . '/../views/home.php';
+        require_once __DIR__ . '/../views/Home.php';
     }
 }
 ?>

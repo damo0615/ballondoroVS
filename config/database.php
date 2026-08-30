@@ -4,8 +4,8 @@
 class Database {
     private $host = "localhost";
     private $db_name = "ballon_dor_db";
-    private $username = "root"; // Cambia por tu usuario de BD
-    private $password = "";     // Cambia por tu contraseña de BD
+    private $username = "Damo"; // Cambia por tu usuario de BD
+    private $password = "Damo";     // Cambia por tu contraseña de BD
     public $conn;
 
     public function getConnection() {

@@ -1,4 +1,4 @@
-<?php require 'public\template\header.html'; ?>
+<?php require 'public/template/header.html'; ?>
 <body>
 
     <!-- Barra de Navegación -->
